@@ -1,0 +1,16 @@
+#install dslabs and tidyverse packages
+install.packages("dslabs")
+install.packages("tidyverse")
+
+#loading libraries
+library(dslabs)
+library(tidyverse)
+
+#viewing the us_contagious_diseases dataset
+view(us_contagious_diseases)
+
+#finding the number of different types of diseases in the dataset
+levels(us_contagious_diseases$disease)
+
+#finding the number of different states in the dataset
+levels(us_contagious_diseases$state)
